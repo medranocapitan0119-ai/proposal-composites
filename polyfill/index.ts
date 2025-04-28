@@ -4,7 +4,10 @@ import { setPrototypeMethods } from "./collection-set.ts";
 import { arrayPrototypeMethods } from "./collection-array.ts";
 import { ownKeys } from "./internal/originals.ts";
 
-export { Composite, arrayPrototypeMethods, mapPrototypeMethods, setPrototypeMethods };
+export { Composite, 
+    arrayPrototypeMethods, 
+    mapPrototypeMethods, 
+    setPrototypeMethods };
 
 export function install(global: Record<string, any>) {
     global["Composite"] = Composite;

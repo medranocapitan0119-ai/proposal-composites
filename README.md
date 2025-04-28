@@ -2,6 +2,10 @@
 
 Keys for Maps and Sets that represent a structured group of values.
 
+## Learning to use it
+
+See section [learning.md](learning.md)
+
 ## Status
 
 Stage: [1](https://tc39.es/process-document/)

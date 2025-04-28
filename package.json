@@ -4,6 +4,7 @@
     "description": "A repository template for ECMAScript proposals.",
     "type": "module",
     "scripts": {
+        "example": "npx tsc && node examples/example.js",
         "test": "node --test --experimental-strip-types",
         "format": "prettier --write .",
         "start": "npm run build-loose -- --watch",
@@ -18,8 +19,9 @@
     "license": "MIT",
     "devDependencies": {
         "@tc39/ecma262-biblio": "2.1.2862",
-        "ecmarkup": "^21.2.0",
         "@types/node": "^22.13.14",
+        "ecmarkup": "^21.2.0",
+        "http-server": "^14.1.1",
         "prettier": "^3.5.3"
     },
     "engines": {

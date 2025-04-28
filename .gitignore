@@ -44,3 +44,7 @@ pnpm-lock.yaml
 
 # Build directory
 build
+
+polyfill/**/*.js
+polyfill/lib/
+tsconfig.tsbuildinfo
