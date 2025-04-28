@@ -1,4 +1,4 @@
-## Discussion on the polyfill
+## Learning to use the polyfill
 
 See https://github.com/ULL-ESIT-PL/babel-tanhauhau/discussions/41#discussioncomment-12939661 at ULL-ESIT-PL/babel-tanhauhau/discussions/41#
 

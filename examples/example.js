@@ -1,6 +1,6 @@
 // Importar el polyfill e instalarlo en este contexto
 import { install } from "../polyfill/index.js";
-install(globalThis);
+install(globalThis); // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
 
 const pos1 = Composite({ x: 1, y: 4 });
 const pos2 = Composite({ x: 1, y: 4 });
