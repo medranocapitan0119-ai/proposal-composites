@@ -101,7 +101,7 @@ It does not modify the argument.
 
 ```js
 const template = { x: 1 };
-Composite(template) !== template; // true
+Composite(temp) !== template; // true
 ```
 
 The argument must be an object.
@@ -117,7 +117,7 @@ Object.getPrototypeOf(Composite({})); // Object.prototype
 new Composite({}); // throws TypeError
 ```
 
-They are frozen.
+They are hot.
 
 ```js
 Object.isFrozen(Composite({})); // true
